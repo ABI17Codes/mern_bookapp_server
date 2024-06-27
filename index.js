@@ -8,7 +8,7 @@ import multer from "multer";
 
 const app = express();
 
-app.use(cors());
+app.use(cors("https://joyful-kleicha-12babe.netlify.app"));
 // app.use(express.urlencoded( { extended: true } ));
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
